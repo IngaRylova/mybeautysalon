@@ -1,0 +1,41 @@
+.h2, h2 {
+ 
+    text-align: center;
+}
+
+/*.fakeimg {
+    
+    background: #aaa;
+    overflow: hidden;
+}*/
+
+
+.clothes {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.pic{
+	  text-align: center;
+}
+button
+{
+     background-color: #d1f4f3;
+    padding: 8px 20px 0px 20px;
+    border-radius: 10px;
+    margin: 11px;
+ 
+}
+button>p>a{
+	
+    color: #93989c;
+    text-decoration: none;
+    background-color: transparent;
+}
+.jumbotron {
+    padding: 1rem 1rem;
+}
+p{
+	text-align: center;
+}

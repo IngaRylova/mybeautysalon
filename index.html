@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap 4 Website Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  
+</head>
+<body>
+
+<div class="jumbotron text-center" style="margin-bottom:0" id=upp>
+  <h1>ЗДЕСЬ ТЫ НАЙДЕШЬ СВОЙ СТИЛЬ</h1>
+ <hr/>
+  <p>Последниие новинки от топовых дизайнеров</p> 
+  <p>Модые прически, стильная одежда, советы от стилистов - здесь все есть.</p> 
+</div>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <a class="navbar-brand" href="index.html">ГЛАВНАЯ</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="hair.html">ПРИЧЕСКИ</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="makeup.html">МЕЙКАП</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="nails.html">МАНИКЮР</a>
+      </li>  
+      <li class="nav-item">
+        <a class="nav-link" href="garderob.html">СОВЕТЫ</a>
+      </li>  
+    </ul>
+  </div>  
+</nav>
+
+<div class="container" style="margin-top:30px">
+  <div class="row">
+    <div class="col-sm-4">
+      <h2>Рубрика дня</h2>
+      <h5>Как визуально стать выше и стройнее </h5><br/>
+      <div class="">
+        <img src="img/stylist.jpg">
+      </div>
+      <br/>
+      <p>Влада расскажет <a href="garderob.html">как правильно подобрать гардероб</a> с невысоким ростом</p>
+    <!--   <h3>Some Links</h3>
+      <p>Lorem ipsum dolor sit ame.</p> -->
+      <ul class="nav nav-pills flex-column">
+        <li class="nav-item">
+          <a class="nav-link active" href="garderob.html">Любишь платья?</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="garderob.html">Или джинсы?</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="garderob.html">А может все таки юбки?</a>
+        </li>
+      </ul>
+      <hr class="d-sm-none">
+    </div>
+    <div class="col-sm-8">
+      <h2>СТИЛЬ ЭТОГО ЛЕТА</h2>
+      <h5> ты уже готова?</h5><br/>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+
+      <img src="img/summer1.jpg" alt="..."> <img src="img/summer2.jpg"><img src="img/summer3.jpg">
+    </div>
+    <div class="carousel-item">
+      <img src="img/summer4.jpg"  alt="..."><img src="img/summer5.jpg"><img src="img/summer6.jpg">
+    </div>
+    <div class="carousel-item">
+      <img src="img/summer7.jpg" alt="..."><img src="img/summer8.jpg"><img src="img/summer9.jpg">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+     <!--  <div class="fakeimg">Fake Image</div>
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p> -->
+      <br/>
+      <h2>ЭТА ВЕСНА ОБЕЩАЕТ БЫТЬ ТАКОЙ</h2>
+      <h5>здесь ты найдешь вдохновение, как правильно обновить свой гардероб к весне 2020</h5><br/>
+      <div class=""><img src="img/spring1.jpg">
+      <img src="img/spring2.jpg"><img src="img/spring3.jpg">
+      </div>
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    </div>
+  </div>
+</div>
+<button><p><a href="#upp">НАВЕРХ</a></p></button>
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <p>Все права защищены</p>
+</div>
+
+
+</body>
+</html>
